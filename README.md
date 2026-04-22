@@ -1,12 +1,12 @@
 # 📦 ExpirySmart
 
-ExpirySmart is a smart web application designed to help users track product expiry dates, manage inventory efficiently, and reduce waste through timely alerts and organized data handling.
+ExpirySmart is an AI-powered inventory and expiry tracking system that helps users manage items, monitor expiry dates, and reduce waste through smart alerts and efficient organization.
 
 ---
 
 ## 🎥 Demo Video
 
-👉 [Watch Demo](C:\Users\Vedika\Downloads\expiry-smart-github\expiry-smart-github\Screen Recording 2026-04-21 230210.mp4)
+👉 (Add your video link here)
 
 ---
 
@@ -32,8 +32,8 @@ ExpirySmart is a smart web application designed to help users track product expi
 
 - **Frontend:** React / TypeScript
 - **Styling:** Tailwind CSS
-- **State Management:** Local Storage / React State
-- **Utilities:** UUID (for unique IDs), CSV Parser
+- **State Management:** React State / Local Storage
+- **Utilities:** UUID, Custom CSV Parser
 - **Development Tool:** VS Code
 
 ---
@@ -42,8 +42,8 @@ ExpirySmart is a smart web application designed to help users track product expi
 
 src/
 │── components/ # UI Components
-│── utils/ # Helper functions (CSV parser, storage)
-│── data/ # Sample / demo data
+│── utils/ # Helper functions
+│── data/ # Sample data
 │── types/ # TypeScript interfaces
 │── App.tsx # Main app logic
 
@@ -53,70 +53,60 @@ src/
 
 ### 🧾 Data Handling
 
-- Each item is stored with:
-  - Unique ID (using UUID)
-  - Name, category, quantity
-  - Purchase date & expiry date
-  - Notes and state (active/used/thrown)
+Each item contains:
 
-- Data is stored in **local storage**, so:
-  - No backend required
-  - Fast performance
-  - Persistent data in browser
+- Unique ID (UUID)
+- Name, category, quantity
+- Purchase & expiry date
+- Notes and state
+
+Data is stored in **localStorage**, so:
+
+- No backend required
+- Fast and lightweight
+- Persistent in browser
 
 ---
 
 ### 📥 CSV Import System
 
-- Users can upload a CSV file with columns:
-  Item Name, Category, Quantity, Purchase Date, Expiry Date, Notes
-  - Custom CSV parser:
-- Handles commas inside quotes
-- Converts rows into structured objects
-- Automatically assigns IDs and timestamps
+- Upload CSV with columns:
+  - Item Name, Category, Quantity, Purchase Date, Expiry Date, Notes
+- Custom parser:
+  - Handles quoted values
+  - Converts CSV → structured data
+  - Auto-generates IDs
 
 ---
 
 ### 🔄 State Management
 
-Each item has a lifecycle:
+Each item lifecycle:
 
-- **Active** → Currently usable
-- **Used** → Already consumed
-- **Thrown** → Expired or discarded
+- **Active** → usable
+- **Used** → consumed
+- **Thrown** → expired
 
 ---
 
-### ⏳ Expiry Tracking Logic
+### ⏳ Expiry Tracking
 
 - Compares current date with expiry date
 - Highlights:
-- Expired items
-- Items close to expiry
-- Enables smarter decision-making
-
----
-
-## 🧠 Key Concepts Used
-
-- Component-based architecture
-- Reusable utility functions
-- Data transformation (CSV → JSON)
-- Browser storage (localStorage)
-- Unique ID generation
-- Basic date comparison logic
+  - Expired items
+  - Near-expiry items
 
 ---
 
 ## 📌 Future Improvements
 
-- 🔔 Email / push notifications
-- ☁️ Cloud database integration
-- 📱 Mobile responsiveness improvements
-- 🤖 AI-based consumption prediction
+- 🔔 Notifications (email/push)
+- ☁️ Cloud database
+- 📱 Better mobile UI
+- 🤖 AI predictions
 
 ---
 
 ## 💡 Conclusion
 
-ExpirySmart simplifies everyday inventory management by combining smart tracking, clean UI, and efficient data handling. It is especially useful for reducing waste and improving organization in daily life.
+ExpirySmart makes inventory tracking simple, smart, and efficient—helping reduce waste and improve daily organization.
