@@ -11,7 +11,7 @@ ExpirySmart is an AI-powered inventory and expiry tracking system that helps use
     <img src="assets/demo.gif" width="600">
   </kbd>
   <br>
-  <em>Real-time vehicle detection and toll-release logic in action</em>
+  <em>Real-time Smart pantry Tracking</em>
 </p>
 
 ---
