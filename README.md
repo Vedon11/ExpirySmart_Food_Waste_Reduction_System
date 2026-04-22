@@ -8,7 +8,7 @@ ExpirySmart is an AI-powered inventory and expiry tracking system that helps use
 
 <p align="center">
   <kbd>
-    <img src="assets/demo.mp4" width="600">
+    <img src="assets/demo.gif" width="600">
   </kbd>
   <br>
   <em>Real-time vehicle detection and toll-release logic in action</em>
