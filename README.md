@@ -6,10 +6,13 @@ ExpirySmart is an AI-powered inventory and expiry tracking system that helps use
 
 ## 🎥 Demo Video
 
-<video width="100%" controls>
-  <source src="https://raw.githubusercontent.com/Vedon11/ExpirySmart_Food_Waste_Reduction_System/main/assets/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<p align="center">
+  <kbd>
+    <img src="assets/demo.mp4" width="600">
+  </kbd>
+  <br>
+  <em>Real-time vehicle detection and toll-release logic in action</em>
+</p>
 
 ---
 
